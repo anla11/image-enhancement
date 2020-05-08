@@ -11,7 +11,7 @@ This project includes image enhancement techniques, developed in C++ with opencv
 - Edged-based: enhance edges
 
 Considering techniques in details, there are four types:
-- Color domain: process on color space, such as RGB, HSV, LAB ...
+- Color domain: process on color space, such as RGB, HSV ...
 https://github.com/anvy1102/image-enhancement/blob/master/src/convert_ColorModel.h (.CPP)
 - Spatial domain: process directly on points. 
 https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h (.CPP)
@@ -22,6 +22,6 @@ https://github.com/anvy1102/image-enhancement/blob/master/src/Histogram.h (.CPP)
 
 With histogram and frequency domain, mapping with spatial space is neccesary, such as Fast Fourier Transform is algorithms converting image to frequency domain then back to spatial domain after applying some filtering. See https://github.com/anvy1102/image-enhancement/blob/master/src/myFFT.h (.CPP)
 
-Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, such as Adaptive Threshold. Checkout here: https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h
+Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, includes Constrast Stretching and Adaptive Threshold with Otsu's method. Checkout here: https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h
 
 The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
