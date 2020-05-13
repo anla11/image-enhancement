@@ -26,17 +26,24 @@ Most of these techniques have been built-in in image processing library. However
 
 The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
 
-Histogram Equalization
+Some demo images:
+
++ Histogram Equalization
+
 ![Histogram Equalization - Raw image](images/before_hist_equa.png)
+
 ![Histogram Equalization - Result](images/after_hist_equa.png)
 
-Adaptive Threshold - Otsu's method
++ Adaptive Threshold - Otsu's method
+
 ![Histogram Equalization - Raw image](images/Otsu.png)
 
-Ideal High Pass Filtering
++ Ideal High Pass Filtering
+
 ![Ideal High Pass Filtering](images/High_Low_Pass_Filter.png)
 
-Ideal Low Pass Filtering
++ Ideal Low Pass Filtering
+
 ![Ideal Low Pass Filtering](images/Ideal_Low_Pass_Filter.png)
 
 Butter Worth Low Pass Filtering
