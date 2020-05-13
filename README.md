@@ -46,7 +46,8 @@ Some demo images:
 
 ![Ideal Low Pass Filtering](images/Ideal_Low_Pass_Filter.png)
 
-Butter Worth Low Pass Filtering
++ Butter Worth Low Pass Filtering
+
 ![Butter Worth Low Pass Filtering- Raw image](images/Butter_Worth_Low_Pass_Filter.png)
 
 
