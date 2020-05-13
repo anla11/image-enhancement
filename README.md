@@ -30,7 +30,11 @@ Some demo images:
 
 + Histogram Equalization
 
+Raw image:
+
 ![Histogram Equalization - Raw image](images/before_hist_equa.png)
+
+After applying Histogram Equalization
 
 ![Histogram Equalization - Result](images/after_hist_equa.png)
 
