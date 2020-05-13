@@ -40,7 +40,7 @@ Some demo images:
 
 + Ideal High Pass Filtering
 
-![Ideal High Pass Filtering](images/High_Low_Pass_Filter.png)
+![Ideal High Pass Filtering](images/Ideal_High_Pass_Filter.png)
 
 + Ideal Low Pass Filtering
 
