@@ -1,10 +1,10 @@
 # image-enhancement
 
-## Prequisites
+## 1. Prequisites
 + C++
 + OpenCV 3. for C++
 
-## Introduction
+## 2. Introduction
 
 This project includes image enhancement techniques, developed in C++ with opencv. It focuses on 2 popular approaches:
 - Color-based: enhance color
@@ -26,7 +26,7 @@ Most of these techniques have been built-in in image processing library. However
 
 The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
 
-Some demo images:
+## 3. Results
 
 + Histogram Equalization
 
