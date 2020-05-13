@@ -25,3 +25,22 @@ With histogram and frequency domain, mapping with spatial space is neccesary, su
 Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, includes Constrast Stretching and Adaptive Threshold with Otsu's method. Checkout here: https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h
 
 The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
+
+Histogram Equalization
+![Histogram Equalization - Raw image](images/before_hist_equa.png)
+![Histogram Equalization - Result](images/after_hist_equa.png)
+
+Adaptive Threshold - Otsu's method
+![Histogram Equalization - Raw image](images/Otsu.png)
+
+Ideal High Pass Filtering
+![Ideal High Pass Filtering](images/High_Low_Pass_Filter.png)
+
+Ideal Low Pass Filtering
+![Ideal Low Pass Filtering](images/Ideal_Low_Pass_Filter.png)
+
+Butter Worth Low Pass Filtering
+![Butter Worth Low Pass Filtering- Raw image](images/Butter_Worth_Low_Pass_Filter.png)
+
+
+
