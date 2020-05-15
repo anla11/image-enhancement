@@ -25,7 +25,7 @@ With histogram and frequency domain, mapping with spatial space is neccesary, su
 
 Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, includes Constrast Stretching and Adaptive Threshold with Otsu's method. Checkout here: [src/PointOperation.h](https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h) (.CPP)
 
-The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
+The demo of these techniques are in scripts with prefix "Demo" and reported here [report/Demo.pdf](https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf)
 
 ## 3. Results
 
