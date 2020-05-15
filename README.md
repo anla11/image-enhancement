@@ -12,13 +12,13 @@ This project includes image enhancement techniques, developed in C++ with opencv
 
 Considering techniques in details, there are four types:
 - Color domain: process on color space, such as RGB, HSV ...
-https://github.com/anvy1102/image-enhancement/blob/master/src/convert_ColorModel.h (.CPP)
+[src/convert_ColorModel.h](https://github.com/anvy1102/image-enhancement/blob/master/src/convert_ColorModel.h) (.CPP)
 - Spatial domain: process directly on points. 
-https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h (.CPP)
+[src/PointOperation.h](https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h) (.CPP)
 - Histogram domain: process on histogram of images
-https://github.com/anvy1102/image-enhancement/blob/master/src/Histogram.h (.CPP)
+[src/Histogram.h](https://github.com/anvy1102/image-enhancement/blob/master/src/Histogram.h) (.CPP)
 - Frequency domain: process on frequency domain.
-https://github.com/anvy1102/image-enhancement/blob/master/src/processFrq.h (.CPP)
+[src/processFrq.h](https://github.com/anvy1102/image-enhancement/blob/master/src/processFrq.h) (.CPP)
 
 With histogram and frequency domain, mapping with spatial space is neccesary, such as Fast Fourier Transform is algorithms converting image to frequency domain then back to spatial domain after applying some filtering. See https://github.com/anvy1102/image-enhancement/blob/master/src/myFFT.h (.CPP)
 
