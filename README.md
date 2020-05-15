@@ -20,9 +20,10 @@ Considering techniques in details, there are four types:
 - Frequency domain: process on frequency domain.
 [src/processFrq.h](https://github.com/anvy1102/image-enhancement/blob/master/src/processFrq.h) (.CPP)
 
-With histogram and frequency domain, mapping with spatial space is neccesary, such as Fast Fourier Transform is algorithms converting image to frequency domain then back to spatial domain after applying some filtering. See https://github.com/anvy1102/image-enhancement/blob/master/src/myFFT.h (.CPP)
+With histogram and frequency domain, mapping with spatial space is neccesary, such as Fast Fourier Transform is algorithms converting image to frequency domain then back to spatial domain after applying some filtering. See 
+[src/myFFT.h](https://github.com/anvy1102/image-enhancement/blob/master/src/myFFT.h) (.CPP)
 
-Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, includes Constrast Stretching and Adaptive Threshold with Otsu's method. Checkout here: https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h
+Most of these techniques have been built-in in image processing library. However, in this projects, I implemented them by myself. I also implemented other advanced methods, includes Constrast Stretching and Adaptive Threshold with Otsu's method. Checkout here: [src/PointOperation.h](https://github.com/anvy1102/image-enhancement/blob/master/src/PointOperation.h) (.CPP)
 
 The demo of these techniques are in scripts with prefix "Demo" and reported here https://github.com/anvy1102/image-enhancement/blob/master/report/Demo.pdf
 
