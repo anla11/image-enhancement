@@ -1,4 +1,4 @@
-# image-enhancement
+# Image enhancement techniques
 
 ## 1. Prequisites
 + C++
